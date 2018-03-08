@@ -1,0 +1,14 @@
+TARGETNAME=msgdrv
+TARGETTYPE=DRIVER
+
+SOURCES=entry.c \
+        ioctl.c \
+        disF_r_w_c_u.c \
+        msgdrv.rc         
+
+TARGETLIBS= $(TARGETLIBS) \
+            $(DDK_LIB_PATH)\ntoskrnl.lib
+    
+MSC_OPTIMIZATION=/Odi		
+		
+MSC_WARNING_LEVEL=/W4 /WX

@@ -1,0 +1,19 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\entry.obj \
+ $(OBJ_PATH)\$O\ioctl.obj \
+ $(OBJ_PATH)\$O\disf_r_w_c_u.obj \
+
+
+_RES_FILE=$(OBJ_PATH)\$O\msgdrv.res
+
+
+
+# lowercased
+BASEDIR=d:\wddk
+OBJECT_ROOT=d:\wddk
+MAKEDIR_LOWERCASE=d:\marvoworksdc\myown\msgdrv
+OBJ_PATH=d:\marvoworksdc\myown\msgdrv
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0
